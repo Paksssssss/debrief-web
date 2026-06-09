@@ -223,8 +223,9 @@ export default function Home() {
         <div className="container footer-inner">
           <div className="footer-logo">Debrief<span>.</span></div>
           <ul className="footer-links">
+            <li><Link to="/faq">FAQ</Link></li>
             <li><Link to="/privacy">Privacy Policy</Link></li>
-            <li><Link to="/account-deletion">Account Deletion</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
           </ul>
           <p className="footer-copy">© {new Date().getFullYear()} John Pakson</p>
         </div>

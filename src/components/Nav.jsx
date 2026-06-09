@@ -21,12 +21,11 @@ export default function Nav() {
         </Link>
         <ul className="nav-links">
           {isHome && (
-            <>
-              <li><a href="#features">Features</a></li>
-            </>
+            <li><a href="#features">Features</a></li>
           )}
-          <li><Link to="/privacy">Privacy</Link></li>
-          <li><Link to="/account-deletion">Account Deletion</Link></li>
+          <li><Link to="/faq">FAQ</Link></li>
+          <li><Link to="/privacy">Privacy Policy</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </div>
     </nav>
