@@ -287,6 +287,31 @@ img { max-width: 100%; display: block; }
   background: var(--bg-card);
 }
 
+.btn-disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.btn-disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.btn-badge {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: rgba(15, 14, 13, 0.18);
+  color: inherit;
+}
+.btn-secondary .btn-badge {
+  background: var(--bg-elevated);
+  color: var(--text-tertiary);
+}
+
 /* ─── Phone mockup ───────────────────────────────────────────────────────── */
 .hero-visual {
   display: flex;
@@ -627,6 +652,47 @@ img { max-width: 100%; display: block; }
   font-size: 17px;
   color: var(--text-secondary);
   margin-bottom: 40px;
+}
+
+/* ─── Alpha Testing ──────────────────────────────────────────────────────── */
+.alpha-section {
+  padding-top: 0;
+}
+
+.alpha-card {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 48px 40px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+
+.alpha-eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--accent-amber);
+  margin-bottom: 12px;
+}
+
+.alpha-title {
+  font-family: var(--font-serif);
+  font-size: clamp(24px, 3vw, 34px);
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.alpha-subtitle {
+  font-size: 16px;
+  color: var(--text-secondary);
+  max-width: 460px;
+  margin: 0 auto 28px;
+  line-height: 1.6;
 }
 
 /* ─── Footer ─────────────────────────────────────────────────────────────── */

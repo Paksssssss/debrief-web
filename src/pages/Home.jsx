@@ -72,6 +72,7 @@ function FeatureCard({ icon, iconClass, title, desc, delay }) {
 export default function Home() {
   const featuresRef = useReveal();
   const ctaRef = useReveal();
+  const alphaRef = useReveal();
 
   return (
     <>
@@ -98,17 +99,21 @@ export default function Home() {
               <div className="hero-actions">
                 <a
                   href="#"
-                  className="btn-primary"
+                  className="btn-primary btn-disabled"
+                  aria-disabled="true"
                   onClick={e => e.preventDefault()}
                 >
-                  ↓ App Store
+                  App Store
+                  <span className="btn-badge">Coming soon</span>
                 </a>
                 <a
                   href="#"
-                  className="btn-secondary"
+                  className="btn-secondary btn-disabled"
+                  aria-disabled="true"
                   onClick={e => e.preventDefault()}
                 >
-                  ↓ Google Play
+                  Google Play
+                  <span className="btn-badge">Coming soon</span>
                 </a>
               </div>
               <div className="hero-trust">
@@ -207,11 +212,35 @@ export default function Home() {
             <h2 className="cta-title">Your day deserves<br />two minutes.</h2>
             <p className="cta-subtitle">Download Debrief and start reflecting tonight.</p>
             <div className="hero-actions" style={{ justifyContent: 'center' }}>
-              <a href="#" className="btn-primary" onClick={e => e.preventDefault()}>
-                ↓ App Store
+              <a href="#" className="btn-primary btn-disabled" aria-disabled="true" onClick={e => e.preventDefault()}>
+                App Store
+                <span className="btn-badge">Coming soon</span>
               </a>
-              <a href="#" className="btn-secondary" onClick={e => e.preventDefault()}>
-                ↓ Google Play
+              <a href="#" className="btn-secondary btn-disabled" aria-disabled="true" onClick={e => e.preventDefault()}>
+                Google Play
+                <span className="btn-badge">Coming soon</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Alpha Testing ── */}
+      <section className="section alpha-section">
+        <div className="container">
+          <div className="reveal" ref={alphaRef}>
+            <div className="alpha-card">
+              <div className="alpha-eyebrow">Get early access</div>
+              <h2 className="alpha-title">Want in before launch?</h2>
+              <p className="alpha-subtitle">
+                Debrief is currently in private alpha testing on iOS and Android. Send a quick email
+                and I'll personally add you to the next testing round.
+              </p>
+              <a
+                className="btn-primary"
+                href="mailto:johnpakson.developer@gmail.com?subject=Alpha%20Testing%20Interest&body=Hi%20John%2C%0A%0AI'd%20like%20to%20join%20the%20Debrief%20alpha%20testing.%0A%0APlatform%20(iOS%2FAndroid)%3A%20%0A"
+              >
+                ✉ Request alpha access
               </a>
             </div>
           </div>
