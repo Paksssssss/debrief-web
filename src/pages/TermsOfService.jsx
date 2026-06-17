@@ -14,12 +14,6 @@ export default function TermsOfService() {
           <h1>Terms of Service</h1>
           <p className="updated">Version 1.0 — Last updated: June 2026</p>
 
-          <blockquote>
-            <strong>Note:</strong> This document was drafted with AI assistance and reviewed
-            against Australian law as at June 2026. It is provided as a starting point and does
-            not constitute legal advice. You should have this reviewed by a qualified Australian
-            solicitor before relying on it commercially.
-          </blockquote>
 
           <h2>1. About These Terms</h2>
           <p>
