@@ -53,8 +53,9 @@ export default function AccountDeletion() {
             <li>All voice recordings (audio files) synced to your private account</li>
           </ul>
           <p>
-            Calendar data is <strong>never uploaded or stored on our servers</strong> — it
-            is read on-device only — so there is nothing calendar-related to delete on our side.
+            Raw calendar data is <strong>never uploaded to our servers</strong> — the App reads
+            it on-device only. However, non-private event names used to generate a journal prompt
+            are stored as part of that entry and will be deleted along with your journal entries.
           </p>
 
           <h2>What is kept, and for how long</h2>

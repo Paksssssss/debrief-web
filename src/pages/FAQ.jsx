@@ -13,7 +13,7 @@ const FAQS = [
   },
   {
     q: 'How private is my journal?',
-    a: 'Very. Your entries are stored on your device and synced only to your own private, password-protected account — no one else can read them, not even us. We don\'t use your journal content for advertising, analytics, or AI training of any kind.',
+    a: 'Very. Your entries are stored on your device and synced only to your own private, password-protected account — no other user can read them. We don\'t use your journal content for advertising, analytics, or AI training of any kind. As the developer, I have administrative access to the database infrastructure, but I do not access user journal content. End-to-end encryption is planned for a future release.',
   },
   {
     q: 'Does my voice get sent anywhere?',
@@ -21,7 +21,7 @@ const FAQS = [
   },
   {
     q: 'How does the calendar feature work?',
-    a: 'With your permission, Debrief reads your calendar to ask follow-up questions after meetings and events — things like "How did that call go?" It\'s read-only: Debrief never adds, edits, or deletes anything. Private calendar events stay private; Debrief never reads or stores their names.',
+    a: 'With your permission, Debrief reads your calendar to ask follow-up questions after meetings and events — things like "How did that call go?" It\'s read-only: Debrief never adds, edits, or deletes anything. Private calendar events stay private; Debrief never reads or stores their names. Non-private event names used to generate a journal prompt are stored as part of that entry, the same as any other entry text.',
   },
   {
     q: 'Which devices are supported?',

@@ -78,7 +78,11 @@ export default function Privacy() {
                   Names of calendar events used for journalling prompts — private events are
                   replaced with the label "Private Event" before they leave your device
                 </td>
-                <td>On your device only; never uploaded in their original form if marked private</td>
+                <td>
+                  Private event names are never stored. Non-private event names used to generate
+                  a journal prompt are stored as part of that entry and synced to Supabase —
+                  the same as any other entry text.
+                </td>
               </tr>
               <tr>
                 <td><strong>Calendar event times</strong></td>
@@ -318,14 +322,19 @@ export default function Privacy() {
           <p>
             <strong>Cloud storage:</strong> Your data is synced to Supabase, which provides
             encrypted data at rest (AES-256), encrypted data in transit (TLS 1.2+), and
-            row-level security — only you (authenticated with your account) can read or write your
-            own data. No other user or account, including ours, can access your entries without
-            your credentials.
+            row-level security — no other user account can read or write your data.
+          </p>
+          <p>
+            <strong>Developer access:</strong> As the operator of Debrief, we have administrative
+            access to the underlying database infrastructure. Your journal content is not
+            end-to-end encrypted at this time, which means it is technically readable by the
+            operator via direct database access. We do not access user journal content, but you
+            should be aware this is architecturally possible. End-to-end encryption is planned
+            for a future release.
           </p>
           <p>
             <strong>Voice recordings</strong> are stored in a private Supabase Storage bucket.
-            Only you can access your own audio files. We cannot access the contents of your
-            recordings except for the purpose of providing the service.
+            No other user account can access your audio files.
           </p>
           <p>
             We take reasonable steps to protect your personal information from misuse,
