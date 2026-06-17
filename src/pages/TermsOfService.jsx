@@ -156,15 +156,16 @@ export default function TermsOfService() {
             <li>
               <strong>Apple (iOS)</strong> — on-device Speech Recognition framework used for
               transcription on iPhone. Subject to{' '}
-              <a href="https://www.apple.com/au/legal/internet-services/itunes/au/terms.html" target="_blank" rel="noopener noreferrer">Apple's Terms of Use</a>{' '}
+              <a href="https://www.apple.com/au/legal/" target="_blank" rel="noopener noreferrer">Apple's Terms of Use</a>{' '}
               and{' '}
               <a href="https://www.apple.com/au/privacy/" target="_blank" rel="noopener noreferrer">Apple's Privacy Policy</a>.
             </li>
             <li>
-              <strong>Google (Android)</strong> — your device's operating system is subject to{' '}
+              <strong>Android transcription (whisper.cpp)</strong> — Transcription on Android
+              uses the open-source whisper.cpp model, which runs entirely on your device and does
+              not send your audio to any server. Your Android device's operating system is subject
+              to{' '}
               <a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer">Google's Terms of Service</a>.
-              Transcription on Android uses the open-source whisper.cpp model, which does not send
-              your audio to Google.
             </li>
             <li>
               <strong>Your device's calendar provider</strong> (Apple Calendar, Google Calendar,
@@ -209,10 +210,10 @@ export default function TermsOfService() {
           <p>To the maximum extent permitted by law (including the Australian Consumer Law):</p>
           <ul>
             <li>
-              Our liability for any loss or damage arising from your use of the App is limited to
-              the amount you paid for the App in the 12 months preceding the event giving rise to
-              the claim, or AUD $50, whichever is greater (note: the App is currently free, so
-              this is $50)
+              Our total liability for any loss or damage arising from your use of the App is
+              capped at AUD $50. Debrief is free — you pay nothing to use it. We set a $50
+              minimum so our liability cap is never zero for a free product. This is a limit on
+              what we may owe you, not a fee you pay us.
             </li>
             <li>
               We are not liable for any indirect, incidental, special, consequential, or punitive

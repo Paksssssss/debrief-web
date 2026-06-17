@@ -216,10 +216,6 @@ export default function Privacy() {
           <ul>
             <li>Respond to your support enquiries or complaints</li>
             <li>
-              Improve the performance and reliability of the App (using crash logs or technical
-              diagnostics — these do not include your journal content or voice recordings)
-            </li>
-            <li>
               Comply with legal obligations (for example, if required by a court order or law
               enforcement request — we will notify you to the extent permitted by law)
             </li>
@@ -247,10 +243,10 @@ export default function Privacy() {
             recordings.
           </p>
           <p>
-            <strong>Google (Android users)</strong><br />
+            <strong>Android transcription (whisper.cpp)</strong><br />
             On Android, transcription uses whisper.cpp, an open-source on-device model downloaded
             once to your device (~60 MB) and cached locally. Your voice recordings are processed
-            entirely on-device. Google is not involved in transcription.
+            entirely on-device and never sent to any server. No third party receives your audio.
           </p>
           <p><strong>We do not use:</strong></p>
           <ul>
@@ -364,8 +360,12 @@ export default function Privacy() {
                 <td>Until you delete the entry in-App, or until you delete your account</td>
               </tr>
               <tr>
-                <td>Calendar data</td>
-                <td>Never stored beyond your device; not retained in cloud</td>
+                <td>Calendar data (raw — event times, attendees, etc.)</td>
+                <td>
+                  Never stored in cloud — processed on your device only. Non-private event names
+                  used to generate a journal prompt are stored as part of that journal entry and
+                  follow the same retention as journal entries above.
+                </td>
               </tr>
               <tr>
                 <td>Notification preferences</td>
