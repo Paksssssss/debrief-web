@@ -20,9 +20,9 @@ export default function Contact() {
             <div className="contact-card-label">Email</div>
             <a
               className="contact-card-email"
-              href="mailto:johnpakson.developer@gmail.com"
+              href="mailto:support@usedebrief.app"
             >
-              johnpakson.developer@gmail.com
+              support@usedebrief.app
             </a>
             <p className="contact-card-note">
               For account or data deletion requests, see the{' '}

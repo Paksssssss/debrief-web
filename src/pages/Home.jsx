@@ -234,11 +234,11 @@ export default function Home() {
               <h2 className="alpha-title">Want in before launch?</h2>
               <p className="alpha-subtitle">
                 Debrief is currently in private alpha testing on iOS and Android. Send a quick email
-                and I'll personally add you to the next testing round.
+                and we'll add you to the next testing round.
               </p>
               <a
                 className="btn-primary"
-                href="mailto:johnpakson.developer@gmail.com?subject=Alpha%20Testing%20Interest&body=Hi%20John%2C%0A%0AI'd%20like%20to%20join%20the%20Debrief%20alpha%20testing.%0A%0APlatform%20(iOS%2FAndroid)%3A%20%0A"
+                href="mailto:support@usedebrief.app?subject=Alpha%20Testing%20Interest&body=Hi%2C%0A%0AI'd%20like%20to%20join%20the%20Debrief%20alpha%20testing.%0A%0APlatform%20(iOS%2FAndroid)%3A%20%0A"
               >
                 ✉ Request alpha access
               </a>
@@ -256,7 +256,7 @@ export default function Home() {
             <li><Link to="/privacy">Privacy Policy</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
-          <p className="footer-copy">© {new Date().getFullYear()} John Pakson</p>
+          <p className="footer-copy">© {new Date().getFullYear()} Paksapps</p>
         </div>
       </footer>
     </>

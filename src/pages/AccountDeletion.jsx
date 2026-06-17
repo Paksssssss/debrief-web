@@ -17,7 +17,7 @@ export default function AccountDeletion() {
           <p>
             This page explains how to request deletion of your <strong>Debrief — Voice
             Journal</strong> account and the data associated with it. Debrief is published
-            by <strong>John Pakson</strong>.
+            by <strong>Paksapps</strong>.
           </p>
 
           <h2>How to request deletion</h2>
@@ -29,7 +29,7 @@ export default function AccountDeletion() {
           <ol className="steps-list">
             <li>
               From the email address you used to sign up, send an email to{' '}
-              <a href="mailto:johnpakson.developer@gmail.com">johnpakson.developer@gmail.com</a>.
+              <a href="mailto:support@usedebrief.app">support@usedebrief.app</a>.
             </li>
             <li>
               Use the subject line: <strong>Account Deletion Request</strong>.
@@ -70,7 +70,7 @@ export default function AccountDeletion() {
 
           <h2>Questions</h2>
           <p>
-            Contact <a href="mailto:johnpakson.developer@gmail.com">johnpakson.developer@gmail.com</a>.
+            Contact <a href="mailto:support@usedebrief.app">support@usedebrief.app</a>.
           </p>
         </div>
       </main>

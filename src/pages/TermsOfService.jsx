@@ -17,8 +17,8 @@ export default function TermsOfService() {
 
           <h2>1. About These Terms</h2>
           <p>
-            These Terms of Service ("Terms") govern your use of Debrief: Voice Journal ("the App",
-            "the Service"), operated by John Vincent Pakson ("Developer", "we", "our", "us").
+            These Terms of Service ("Terms") govern your use of Debrief — Voice Journal ("the App",
+            "the Service"), operated by Paksapps ("Developer", "we", "our", "us").
           </p>
           <p>
             By creating an account — specifically, by ticking the "I accept the Terms of Service
@@ -81,7 +81,7 @@ export default function TermsOfService() {
             You are responsible for keeping your password secure. You must not share your login
             credentials with anyone. You are responsible for all activity that occurs under your
             account. If you suspect unauthorised access to your account, notify us immediately at{' '}
-            <a href="mailto:johnpakson.developer@gmail.com">johnpakson.developer@gmail.com</a>.
+            <a href="mailto:support@usedebrief.app">support@usedebrief.app</a>.
           </p>
           <p>
             <strong>One account per person</strong><br />
@@ -255,7 +255,7 @@ export default function TermsOfService() {
           <p>
             <strong>Contact us first</strong><br />
             Before commencing any legal action, you agree to contact us at{' '}
-            <a href="mailto:johnpakson.developer@gmail.com">johnpakson.developer@gmail.com</a>{' '}
+            <a href="mailto:support@usedebrief.app">support@usedebrief.app</a>{' '}
             and give us a reasonable opportunity (at least 30 days) to resolve the dispute. Most
             issues can be resolved quickly through direct contact.
           </p>
@@ -306,14 +306,13 @@ export default function TermsOfService() {
           <h2>15. Contact and Notices</h2>
           <p>All legal notices to us should be sent to:</p>
           <p>
-            <strong>John Vincent Pakson</strong><br />
-            Debrief: Voice Journal<br />
-            Email: <a href="mailto:johnpakson.developer@gmail.com">johnpakson.developer@gmail.com</a><br />
-            Postal: U 4 / 20 Stanlake Street, Footscray VIC 3011, Australia
+            <strong>Paksapps</strong><br />
+            Debrief — Voice Journal<br />
+            Email: <a href="mailto:support@usedebrief.app">support@usedebrief.app</a>
           </p>
           <p>We will send notices to you at the email address associated with your account.</p>
 
-          <p className="updated"><em>Terms of Service v1.0 — Debrief: Voice Journal — June 2026</em></p>
+          <p className="updated"><em>Terms of Service v1.0 — Debrief — Voice Journal — June 2026</em></p>
         </div>
       </main>
     </>

@@ -16,8 +16,8 @@ export default function Privacy() {
 
           <h2>1. About This Policy</h2>
           <p>
-            Debrief: Voice Journal ("Debrief", "the App", "we", "our", "us") is a personal
-            voice-journalling application for iPhone and Android, operated by John Vincent Pakson
+            Debrief — Voice Journal ("Debrief", "the App", "we", "our", "us") is a personal
+            voice-journalling application for iPhone and Android, operated by Paksapps
             ("the Developer").
           </p>
           <p>
@@ -34,9 +34,7 @@ export default function Privacy() {
           </p>
           <p>
             <strong>Contact for privacy enquiries:</strong><br />
-            Email: <a href="mailto:johnpakson.developer@gmail.com">johnpakson.developer@gmail.com</a><br />
-            Postal: U 4 / 20 Stanlake Street, Footscray VIC 3011, Australia
-          </p>
+            Email: <a href="mailto:support@usedebrief.app">support@usedebrief.app</a>          </p>
 
           <h2>2. What Personal Information We Collect</h2>
           <p>
@@ -398,14 +396,14 @@ export default function Privacy() {
             You can request access to the personal information we hold about you. Most of your
             journal data is directly accessible to you within the App at any time. For a copy of
             any other personal information we hold, contact us at{' '}
-            <a href="mailto:johnpakson.developer@gmail.com">johnpakson.developer@gmail.com</a>.
+            <a href="mailto:support@usedebrief.app">support@usedebrief.app</a>.
             We will respond within 30 days.
           </p>
           <p>
             <strong>Right to correction (APP 13)</strong><br />
             If you believe personal information we hold about you is inaccurate, incomplete, out
             of date, or misleading, you can request that we correct it. Contact us at{' '}
-            <a href="mailto:johnpakson.developer@gmail.com">johnpakson.developer@gmail.com</a>{' '}
+            <a href="mailto:support@usedebrief.app">support@usedebrief.app</a>{' '}
             and we will respond within 30 days. If we choose not to correct the information, we
             will explain our reasons.
           </p>
@@ -445,7 +443,7 @@ export default function Privacy() {
             from a child under 15 without appropriate consent, we will take steps to delete that
             information promptly. If you are a parent or guardian and believe your child has
             provided us with personal information, please contact us at{' '}
-            <a href="mailto:johnpakson.developer@gmail.com">johnpakson.developer@gmail.com</a>.
+            <a href="mailto:support@usedebrief.app">support@usedebrief.app</a>.
           </p>
 
           <h2>14. Marketing Communications</h2>
@@ -467,7 +465,7 @@ export default function Privacy() {
             <strong>Step 1 — Contact us first</strong><br />
             If you have a complaint about how we have handled your personal information, please
             contact us first at{' '}
-            <a href="mailto:johnpakson.developer@gmail.com">johnpakson.developer@gmail.com</a>{' '}
+            <a href="mailto:support@usedebrief.app">support@usedebrief.app</a>{' '}
             with the subject line "Privacy Complaint". We will acknowledge your complaint within
             5 business days and aim to resolve it within 30 days.
           </p>
@@ -510,14 +508,12 @@ export default function Privacy() {
             personal information:
           </p>
           <p>
-            <strong>John Vincent Pakson</strong><br />
-            Debrief: Voice Journal<br />
-            Email: <a href="mailto:johnpakson.developer@gmail.com">johnpakson.developer@gmail.com</a><br />
-            Postal: U 4 / 20 Stanlake Street, Footscray VIC 3011, Australia
-          </p>
+            <strong>Paksapps</strong><br />
+            Debrief — Voice Journal<br />
+            Email: <a href="mailto:support@usedebrief.app">support@usedebrief.app</a>          </p>
           <p>We aim to respond to all privacy enquiries within 5 business days.</p>
 
-          <p className="updated"><em>Privacy Policy v1.0 — Debrief: Voice Journal — June 2026</em></p>
+          <p className="updated"><em>Privacy Policy v1.0 — Debrief — Voice Journal — June 2026</em></p>
         </div>
       </main>
     </>
