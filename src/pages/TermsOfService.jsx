@@ -18,7 +18,9 @@ export default function TermsOfService() {
           <h2>1. About These Terms</h2>
           <p>
             These Terms of Service ("Terms") govern your use of Debrief — Voice Journal ("the App",
-            "the Service"), operated by Paksapps ("Developer", "we", "our", "us").
+            "the Service"). Debrief — Voice Journal is provided by an independent developer based in
+            Australia under the developer label "PaksApps". References to "we", "us", "our", and
+            "Developer" mean the developer of Debrief — Voice Journal.
           </p>
           <p>
             By creating an account — specifically, by ticking the "I accept the Terms of Service
@@ -51,19 +53,21 @@ export default function TermsOfService() {
             service, a mental health application, or a medical device. Nothing in the App
             constitutes professional advice of any kind.
           </p>
+          <p>
+            Debrief is not designed to store medical records, clinical notes, emergency
+            information, or documents subject to regulated health recordkeeping obligations. Do
+            not use Debrief as a system of record for health or medical information.
+          </p>
 
           <h2>3. Eligibility</h2>
           <p>To use Debrief, you must:</p>
           <ul>
-            <li>
-              Be at least <strong>15 years of age</strong>. If you are between 15 and 18, you
-              should have a parent or guardian review these Terms with you.
-            </li>
+            <li>Be at least <strong>18 years of age</strong></li>
             <li>Have the legal capacity to enter into a binding agreement</li>
             <li>Not be prohibited from using the App under any applicable law</li>
           </ul>
           <p>
-            If you are under 15, you are not permitted to create an account or use the App. The
+            If you are under 18, you are not permitted to create an account or use the App. The
             App is primarily designed for users in Australia, but may be used in other countries.
             If you access the App from outside Australia, you are responsible for ensuring your
             use complies with local laws.
@@ -304,10 +308,9 @@ export default function TermsOfService() {
           </p>
 
           <h2>15. Contact and Notices</h2>
-          <p>All legal notices to us should be sent to:</p>
+          <p>All legal notices to us should be sent to the developer of Debrief — Voice Journal:</p>
           <p>
-            <strong>Paksapps</strong><br />
-            Debrief — Voice Journal<br />
+            Debrief — Voice Journal (developer label "PaksApps")<br />
             Email: <a href="mailto:support@usedebrief.app">support@usedebrief.app</a>
           </p>
           <p>We will send notices to you at the email address associated with your account.</p>

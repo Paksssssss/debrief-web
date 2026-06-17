@@ -17,14 +17,17 @@ export default function Privacy() {
           <h2>1. About This Policy</h2>
           <p>
             Debrief — Voice Journal ("Debrief", "the App", "we", "our", "us") is a personal
-            voice-journalling application for iPhone and Android, operated by Paksapps
-            ("the Developer").
+            voice-journalling application for iPhone and Android, provided by an independent
+            developer based in Australia under the developer label "PaksApps". References to
+            "we", "us", and "our" mean the developer of Debrief — Voice Journal.
           </p>
           <p>
-            This Privacy Policy explains what personal information we collect when you use Debrief,
-            why we collect it, how we handle it, who we may share it with, and what rights you have
-            under the <strong>Privacy Act 1988 (Cth)</strong> and the{' '}
-            <strong>Australian Privacy Principles (APPs)</strong>.
+            Debrief may not be subject to the <strong>Privacy Act 1988 (Cth)</strong> as a small
+            business operator, but we voluntarily follow its{' '}
+            <strong>Australian Privacy Principles (APPs)</strong> as a baseline for how we handle
+            your data. This Privacy Policy explains what personal information we collect when you
+            use Debrief, why we collect it, how we handle it, who we may share it with, and what
+            choices you have.
           </p>
           <p>
             We are committed to handling your personal information — including your voice recordings
@@ -219,6 +222,12 @@ export default function Privacy() {
             </li>
           </ul>
           <p>We will not use your personal information for direct marketing without your separate, informed consent.</p>
+          <p>
+            Debrief is for personal journaling and reflection only. It is not designed to store
+            medical records, clinical notes, emergency information, or documents subject to
+            regulated health recordkeeping obligations. Please do not use Debrief as a system of
+            record for health or medical information.
+          </p>
 
           <h2>7. Who We Share Your Information With</h2>
           <p>
@@ -433,14 +442,17 @@ export default function Privacy() {
               involved, what steps we have taken, and what steps you can take to protect yourself
             </li>
           </ol>
-          <p>We maintain this obligation regardless of the size of our business.</p>
+          <p>
+            We will follow this process as a matter of good practice, whether or not we are
+            strictly required to under the Privacy Act.
+          </p>
 
           <h2>13. Children's Privacy</h2>
           <p>
-            Debrief is not directed at children under the age of 15. We do not knowingly collect
-            personal information from anyone under 15. If you are under 15, please do not use
+            Debrief is intended for users aged 18 and over. We do not knowingly collect
+            personal information from anyone under 18. If you are under 18, please do not use
             the App. If we become aware that we have inadvertently collected personal information
-            from a child under 15 without appropriate consent, we will take steps to delete that
+            from a minor under 18 without appropriate consent, we will take steps to delete that
             information promptly. If you are a parent or guardian and believe your child has
             provided us with personal information, please contact us at{' '}
             <a href="mailto:support@usedebrief.app">support@usedebrief.app</a>.
@@ -508,8 +520,7 @@ export default function Privacy() {
             personal information:
           </p>
           <p>
-            <strong>Paksapps</strong><br />
-            Debrief — Voice Journal<br />
+            Debrief — Voice Journal (developer label "PaksApps")<br />
             Email: <a href="mailto:support@usedebrief.app">support@usedebrief.app</a>          </p>
           <p>We aim to respond to all privacy enquiries within 5 business days.</p>
 
