@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Privacy from './pages/Privacy';
+import TermsOfService from './pages/TermsOfService';
 import AccountDeletion from './pages/AccountDeletion';
 import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
@@ -14,6 +15,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/privacy" element={<Privacy />} />
+      <Route path="/terms-of-service" element={<TermsOfService />} />
       <Route path="/account-deletion" element={<AccountDeletion />} />
       <Route path="/faq" element={<FAQ />} />
       <Route path="/contact" element={<Contact />} />
