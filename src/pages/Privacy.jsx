@@ -1,9 +1,11 @@
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { useEffect } from 'react';
 import Nav from '../components/Nav';
 
 export default function Privacy() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
+  const [searchParams] = useSearchParams();
+  const isPH = searchParams.get('region') === 'PH';
 
   return (
     <>
@@ -525,6 +527,135 @@ export default function Privacy() {
           <p>We aim to respond to all privacy enquiries within 5 business days.</p>
 
           <p className="updated"><em>Privacy Policy v1.0 — Debrief — Voice Journal — June 2026</em></p>
+
+          {isPH && (
+            <>
+              <hr />
+              <h2 id="philippines-supplement">Philippines Supplement — Data Privacy Act of 2012 (Republic Act No. 10173)</h2>
+              <p className="updated">
+                <em>
+                  ⚠️ This supplement was drafted with AI assistance and reviewed against Philippine
+                  law as at June 2026. It is provided as a starting point and does not constitute
+                  legal advice. It should be reviewed by a lawyer familiar with the Philippine Data
+                  Privacy Act (RA 10173) and NPC circulars before commercial reliance.
+                </em>
+              </p>
+              <p>
+                If you are located in the Philippines, the{' '}
+                <strong>Data Privacy Act of 2012 (Republic Act No. 10173)</strong> ("the DPA"),
+                enforced by the <strong>National Privacy Commission (NPC)</strong>, applies to how
+                your personal information is processed. This supplement sets out your rights and our
+                obligations under the DPA, in addition to the Australian privacy standards described
+                above.
+              </p>
+
+              <h3>Supervisory Authority</h3>
+              <p>
+                The supervisory authority for the DPA is the{' '}
+                <strong>National Privacy Commission (NPC)</strong> of the Philippines. If you
+                believe your data privacy rights have not been honoured, you may lodge a complaint
+                with the NPC:
+              </p>
+              <p>
+                <strong>National Privacy Commission</strong><br />
+                Website:{' '}
+                <a href="https://www.privacy.gov.ph" target="_blank" rel="noopener noreferrer">
+                  www.privacy.gov.ph
+                </a>
+              </p>
+
+              <h3>Data Protection Officer</h3>
+              <p>
+                As required under the Implementing Rules and Regulations of RA 10173 (Rule VI,
+                Section 21) and NPC Circular 16-03, we have designated a Data Protection Officer:
+              </p>
+              <p>
+                <strong>Name:</strong> John Pakson<br />
+                <strong>Contact:</strong>{' '}
+                <a href="mailto:support@usedebrief.app">support@usedebrief.app</a>
+              </p>
+              <p>
+                You may contact the Data Protection Officer to exercise any of your rights under
+                the DPA, to ask questions about how your personal information is handled, or to
+                raise a data privacy concern.
+              </p>
+
+              <h3>Your Rights Under the DPA</h3>
+              <p>Philippine users have the following rights under Republic Act No. 10173:</p>
+              <ol>
+                <li>
+                  <strong>Right to be informed</strong> — you have the right to be told what
+                  personal information about you is being collected, how it is being used, how long
+                  it will be retained, and with whom it may be shared.
+                </li>
+                <li>
+                  <strong>Right to access</strong> — you have the right to request a copy of your
+                  personal information that we hold, including the sources of that information, who
+                  it has been shared with, and the purposes for processing.
+                </li>
+                <li>
+                  <strong>Right to object</strong> — you have the right to object to the processing
+                  of your personal information, including where it is being used for direct
+                  marketing purposes.
+                </li>
+                <li>
+                  <strong>Right to erasure or blocking</strong> — you have the right to request
+                  that your personal information be deleted or blocked if it is incomplete,
+                  outdated, false, unlawfully obtained, or no longer necessary for the purpose for
+                  which it was collected.
+                </li>
+                <li>
+                  <strong>Right to rectification</strong> — you have the right to request
+                  correction of any inaccurate, incomplete, or outdated personal information we
+                  hold about you.
+                </li>
+                <li>
+                  <strong>Right to data portability</strong> — you have the right to obtain a copy
+                  of your personal information in a structured, electronic format that allows you
+                  to transmit it to another organisation.
+                </li>
+                <li>
+                  <strong>Right to damages</strong> — you have the right to claim compensation for
+                  any damages sustained as a result of inaccurate, incomplete, outdated, false, or
+                  unlawfully obtained personal information, subject to the provisions of the DPA.
+                </li>
+              </ol>
+              <p>
+                To exercise any of these rights, contact us at{' '}
+                <a href="mailto:support@usedebrief.app">support@usedebrief.app</a>. We aim to
+                respond within 30 days.
+              </p>
+
+              <h3>Cross-Border Data Transfer</h3>
+              <p>
+                Your personal information — including journal entries, voice recordings,
+                transcriptions, and account data — is stored on servers located in{' '}
+                <strong>Singapore (ap-southeast-1)</strong> via our cloud infrastructure provider,
+                Supabase (a US-incorporated company).
+              </p>
+              <p>
+                Singapore operates its own data protection framework — the{' '}
+                <strong>Personal Data Protection Act 2012 (PDPA)</strong>, administered by the{' '}
+                <strong>Personal Data Protection Commission (PDPC)</strong> — which provides
+                comparable data protection obligations to RA 10173. Supabase also maintains a Data
+                Processing Agreement and holds SOC 2 Type II certification, providing additional
+                safeguards for your data.
+              </p>
+              <p>
+                This international transfer is necessary to provide the cloud sync, backup, and
+                cross-device features of the App.
+              </p>
+
+              <h3>NPC Registration</h3>
+              <p>
+                Under NPC Circular 17-01, organisations that process sensitive personal information
+                of <strong>1,000 or more individuals</strong> must register their data processing
+                systems with the NPC. Debrief currently processes personal information of fewer
+                than 1,000 Philippine users. We will initiate NPC registration when this threshold
+                is met or is expected to be met imminently.
+              </p>
+            </>
+          )}
         </div>
       </main>
     </>

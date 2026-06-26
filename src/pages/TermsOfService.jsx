@@ -1,9 +1,11 @@
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { useEffect } from 'react';
 import Nav from '../components/Nav';
 
 export default function TermsOfService() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
+  const [searchParams] = useSearchParams();
+  const isPH = searchParams.get('region') === 'PH';
 
   return (
     <>
@@ -190,6 +192,16 @@ export default function TermsOfService() {
             under the Privacy Act 1988 (Cth). By using Debrief, you acknowledge that you have read
             and understood our Privacy Policy.
           </p>
+          {isPH && (
+            <p>
+              If you are located in the Philippines, our Privacy Policy also includes a{' '}
+              <strong>Philippines Supplement</strong> that sets out your rights under the{' '}
+              <strong>Data Privacy Act of 2012 (Republic Act No. 10173)</strong> and our obligations
+              under that law, including details of our designated Data Protection Officer and how to
+              contact the National Privacy Commission (NPC).{' '}
+              <Link to="/privacy?region=PH#philippines-supplement">View Philippines Supplement →</Link>
+            </p>
+          )}
 
           <h2>9. No Warranties</h2>
           <p>
